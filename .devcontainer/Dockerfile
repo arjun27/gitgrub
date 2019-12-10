@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM buildpack-deps:buster
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
