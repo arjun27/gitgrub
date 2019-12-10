@@ -1,7 +1,7 @@
 {
     "dockerFile": "Dockerfile",
     "appPort": [3000, 3001],
-    "postCreateCommand": "bundle install && yarn install",
+    "postCreateCommand": "bundle install && yarn install && ./seed-commits.sh",
     "extensions": [
         "castwide.solargraph",
         "karigari.chat",
