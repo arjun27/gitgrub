@@ -4,6 +4,7 @@
     "postCreateCommand": "bundle install && yarn install",
     "extensions": [
         "castwide.solargraph",
+        "karigari.chat",
         "rebornix.Ruby"
     ]
 }
