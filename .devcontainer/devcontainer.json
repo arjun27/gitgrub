@@ -1,7 +1,7 @@
 {
     "dockerFile": "Dockerfile",
     "appPort": 3000,
-    "postCreateCommand": "bundle install && yarn install && rails server",
+    "postCreateCommand": "bundle install && yarn install",
     "extensions": [
         "rebornix.Ruby"
     ]
