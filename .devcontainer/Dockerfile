@@ -48,6 +48,7 @@ RUN apt-get update \
         ruby-debug-ide \
         debase \
         bundler:2.0.2 \
+        solargraph \
     #
     # Install sinatra MVC components
     && gem install \
